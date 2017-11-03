@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Key</key>
+			<string>deviceName</string>
+			<key>AutocapitalizationType</key>
+			<string>Words</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>Title</key>
+			<string>Device Name</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Select Device Image</string>
+			<key>IASKViewControllerStoryBoardFile</key>
+			<string>Main</string>
+			<key>IASKViewControllerStoryBoardId</key>
+			<string>DeviceImage</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Upload GPS Metadata</string>
+			<key>Key</key>
+			<string>gpsMeta</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Set Password</string>
+			<key>IASKViewControllerStoryBoardFile</key>
+			<string>Main</string>
+			<key>IASKViewControllerStoryBoardId</key>
+			<string>passwordView</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable 3G Upload Photo</string>
+			<key>Key</key>
+			<string>3GEnable</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Show QR Code</string>
+			<key>IASKViewControllerStoryBoardFile</key>
+			<string>Main</string>
+			<key>IASKViewControllerStoryBoardId</key>
+			<string>QRPreview</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Delete Raw Photo after uploaded</string>
+			<key>Key</key>
+			<string>DeleteRaw</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Import Photo From DropBox</string>
+			<key>Key</key>
+			<string>ImportDropBox</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
